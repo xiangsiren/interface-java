@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="这是我自己的接口测试套件">
+    <test name="这是测试模块">
+        <classes>
+            <class name="io.renren.modules.sys.controller.Ren"/>
+            <!--<methods>-->
+                <!--<include name="test"/>-->
+            <!--</methods>-->
+
+        </classes>
+    </test>
+
+    <listeners>
+        <!--这是配置生成报告的监听-->
+        <listener class-name="io.renren.common.listener.MyExtentTestNgFormatter"/>
+    </listeners>
+
+
+</suite>

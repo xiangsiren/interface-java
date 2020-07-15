@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-斑马仓">
+              <span class="suite-name border-passed">斑马仓</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-斑马仓">
+                    <span>sutes.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-斑马仓">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-斑马仓">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-斑马仓">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-斑马仓">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-斑马仓">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-斑马仓">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-斑马仓" class="hide-methods passed suite-斑马仓"> (hide)</a> <!-- hide-methods passed suite-斑马仓 -->
+                      <a href="#" panel-name="suite-斑马仓" class="show-methods passed suite-斑马仓"> (show)</a> <!-- show-methods passed suite-斑马仓 -->
+                    </span>
+                    <div class="method-list-content passed suite-斑马仓">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-斑马仓" title="io.renren.modules.cases.service.CaseService" hash-for-method="test3(TestCaseEntity(id=3, caseName=null, path=/bmc_app/v1/welcome/get_info, method=get, requestData=null,...)">test3(TestCaseEntity(id=3, caseName=null, path=/bmc_app/v1/welcome/get_info, method=get, requestData=null,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-斑马仓" title="io.renren.modules.cases.service.CaseService" hash-for-method="test3(TestCaseEntity(id=10, caseName=null, path=2, method=get, requestData=null, requestUrl=null, time=Tue...)">test3(TestCaseEntity(id=10, caseName=null, path=2, method=get, requestData=null, requestUrl=null, time=Tue...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-斑马仓" title="io.renren.modules.cases.service.CaseService" hash-for-method="test3(TestCaseEntity(id=1, caseName=null, path=/bmc_hb/1.0/account/login, method=post, requestData=null, r...)">test3(TestCaseEntity(id=1, caseName=null, path=/bmc_hb/1.0/account/login, method=post, requestData=null, r...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-斑马仓" title="io.renren.modules.cases.service.CaseService" hash-for-method="test3(TestCaseEntity(id=11, caseName=null, path=22, method=null, requestData=null, requestUrl=null, time=T...)">test3(TestCaseEntity(id=11, caseName=null, path=22, method=null, requestData=null, requestUrl=null, time=T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-斑马仓" title="io.renren.modules.cases.service.CaseService" hash-for-method="test3(TestCaseEntity(id=5, caseName=null, path=/bmc_hb/1.0/cate/list, method=post, requestData=null, reque...)">test3(TestCaseEntity(id=5, caseName=null, path=/bmc_hb/1.0/cate/list, method=post, requestData=null, reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-斑马仓" title="io.renren.modules.cases.service.CaseService" hash-for-method="test3(TestCaseEntity(id=7, caseName=null, path=/bmc_hb/1.0/unit/list_label, method=post, requestData=null,...)">test3(TestCaseEntity(id=7, caseName=null, path=/bmc_hb/1.0/unit/list_label, method=post, requestData=null,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-斑马仓" title="io.renren.modules.cases.service.CaseService" hash-for-method="test3(TestCaseEntity(id=6, caseName=null, path=/bmc_hb/1.0/account/supplier_list, method=post, requestData...)">test3(TestCaseEntity(id=6, caseName=null, path=/bmc_hb/1.0/account/supplier_list, method=post, requestData...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-斑马仓" title="io.renren.modules.cases.service.CaseService" hash-for-method="test3(TestCaseEntity(id=8, caseName=null, path=/bmc_hb/1.0/goods/goods_list, method=post, requestData=null...)">test3(TestCaseEntity(id=8, caseName=null, path=/bmc_hb/1.0/goods/goods_list, method=post, requestData=null...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-斑马仓" title="io.renren.modules.cases.service.CaseService" hash-for-method="test3(TestCaseEntity(id=4, caseName=null, path=/bmc_hb/1.0/unit/list_all, method=post, requestData=null, r...)">test3(TestCaseEntity(id=4, caseName=null, path=/bmc_hb/1.0/unit/list_all, method=post, requestData=null, r...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-斑马仓 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-斑马仓" class="panel 斑马仓">
+          <div class="suite-斑马仓-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">io.renren.modules.cases.service.CaseService</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3(TestCaseEntity(id=3, caseName=null, path=/bmc_app/v1/welcome/get_info, method=get, requestData=null,...)">
+                  </a> <!-- test3(TestCaseEntity(id=3, caseName=null, path=/bmc_app/v1/welcome/get_info, method=get, requestData=null,...) -->
+                  <span class="method-name">test3</span>
+                  <span class="parameters">(TestCaseEntity(id=3, caseName=null, path=/bmc_app/v1/welcome/get_info, method=get, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:38 CST 2020, responseData=null))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3(TestCaseEntity(id=10, caseName=null, path=2, method=get, requestData=null, requestUrl=null, time=Tue...)">
+                  </a> <!-- test3(TestCaseEntity(id=10, caseName=null, path=2, method=get, requestData=null, requestUrl=null, time=Tue...) -->
+                  <span class="method-name">test3</span>
+                  <span class="parameters">(TestCaseEntity(id=10, caseName=null, path=2, method=get, requestData=null, requestUrl=null, time=Tue May 26 03:09:18 CST 2020, responseData=null))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3(TestCaseEntity(id=1, caseName=null, path=/bmc_hb/1.0/account/login, method=post, requestData=null, r...)">
+                  </a> <!-- test3(TestCaseEntity(id=1, caseName=null, path=/bmc_hb/1.0/account/login, method=post, requestData=null, r...) -->
+                  <span class="method-name">test3</span>
+                  <span class="parameters">(TestCaseEntity(id=1, caseName=null, path=/bmc_hb/1.0/account/login, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:38 CST 2020, responseData=null))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3(TestCaseEntity(id=11, caseName=null, path=22, method=null, requestData=null, requestUrl=null, time=T...)">
+                  </a> <!-- test3(TestCaseEntity(id=11, caseName=null, path=22, method=null, requestData=null, requestUrl=null, time=T...) -->
+                  <span class="method-name">test3</span>
+                  <span class="parameters">(TestCaseEntity(id=11, caseName=null, path=22, method=null, requestData=null, requestUrl=null, time=Tue May 26 03:44:08 CST 2020, responseData=null))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3(TestCaseEntity(id=5, caseName=null, path=/bmc_hb/1.0/cate/list, method=post, requestData=null, reque...)">
+                  </a> <!-- test3(TestCaseEntity(id=5, caseName=null, path=/bmc_hb/1.0/cate/list, method=post, requestData=null, reque...) -->
+                  <span class="method-name">test3</span>
+                  <span class="parameters">(TestCaseEntity(id=5, caseName=null, path=/bmc_hb/1.0/cate/list, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3(TestCaseEntity(id=7, caseName=null, path=/bmc_hb/1.0/unit/list_label, method=post, requestData=null,...)">
+                  </a> <!-- test3(TestCaseEntity(id=7, caseName=null, path=/bmc_hb/1.0/unit/list_label, method=post, requestData=null,...) -->
+                  <span class="method-name">test3</span>
+                  <span class="parameters">(TestCaseEntity(id=7, caseName=null, path=/bmc_hb/1.0/unit/list_label, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3(TestCaseEntity(id=6, caseName=null, path=/bmc_hb/1.0/account/supplier_list, method=post, requestData...)">
+                  </a> <!-- test3(TestCaseEntity(id=6, caseName=null, path=/bmc_hb/1.0/account/supplier_list, method=post, requestData...) -->
+                  <span class="method-name">test3</span>
+                  <span class="parameters">(TestCaseEntity(id=6, caseName=null, path=/bmc_hb/1.0/account/supplier_list, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3(TestCaseEntity(id=8, caseName=null, path=/bmc_hb/1.0/goods/goods_list, method=post, requestData=null...)">
+                  </a> <!-- test3(TestCaseEntity(id=8, caseName=null, path=/bmc_hb/1.0/goods/goods_list, method=post, requestData=null...) -->
+                  <span class="method-name">test3</span>
+                  <span class="parameters">(TestCaseEntity(id=8, caseName=null, path=/bmc_hb/1.0/goods/goods_list, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3(TestCaseEntity(id=4, caseName=null, path=/bmc_hb/1.0/unit/list_all, method=post, requestData=null, r...)">
+                  </a> <!-- test3(TestCaseEntity(id=4, caseName=null, path=/bmc_hb/1.0/unit/list_all, method=post, requestData=null, r...) -->
+                  <span class="method-name">test3</span>
+                  <span class="parameters">(TestCaseEntity(id=4, caseName=null, path=/bmc_hb/1.0/unit/list_all, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-斑马仓-class-passed -->
+        </div> <!-- panel 斑马仓 -->
+        <div panel-name="test-xml-斑马仓" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ren/Desktop/web/java/renren-security/renren-admin/src/main/resources/sutes.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;斑马仓&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.renren.common.listener.MyExtentTestNgFormatter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;接口回归测试&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;io.renren.modules.cases.service.CaseService&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 接口回归测试 --&gt;
+&lt;/suite&gt; &lt;!-- 斑马仓 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-斑马仓" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 斑马仓</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">接口回归测试 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-斑马仓" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 斑马仓</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-斑马仓" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 斑马仓</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_斑马仓');
+function tableData_斑马仓() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test3')
+data.setCell(0, 2, 'io.renren.modules.cases.service.CaseService')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test3')
+data.setCell(1, 2, 'io.renren.modules.cases.service.CaseService')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test3')
+data.setCell(2, 2, 'io.renren.modules.cases.service.CaseService')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test3')
+data.setCell(3, 2, 'io.renren.modules.cases.service.CaseService')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test3')
+data.setCell(4, 2, 'io.renren.modules.cases.service.CaseService')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test3')
+data.setCell(5, 2, 'io.renren.modules.cases.service.CaseService')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test3')
+data.setCell(6, 2, 'io.renren.modules.cases.service.CaseService')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test3')
+data.setCell(7, 2, 'io.renren.modules.cases.service.CaseService')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test3')
+data.setCell(8, 2, 'io.renren.modules.cases.service.CaseService')
+data.setCell(8, 3, 0);
+window.suiteTableData['斑马仓']= { tableData: data, tableDiv: 'times-div-斑马仓'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-斑马仓">
+              </div> <!-- times-div-斑马仓 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-斑马仓" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 斑马仓</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-斑马仓" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-斑马仓" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">io.renren.modules.cases.service.CaseService</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test3(TestCaseEntity(id=1, caseName=null, path=/bmc_hb/1.0/account/login, method=post, requestData=null, r...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3(TestCaseEntity(id=3, caseName=null, path=/bmc_app/v1/welcome/get_info, method=get, requestData=null,...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3(TestCaseEntity(id=4, caseName=null, path=/bmc_hb/1.0/unit/list_all, method=post, requestData=null, r...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3(TestCaseEntity(id=5, caseName=null, path=/bmc_hb/1.0/cate/list, method=post, requestData=null, reque...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3(TestCaseEntity(id=6, caseName=null, path=/bmc_hb/1.0/account/supplier_list, method=post, requestData...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3(TestCaseEntity(id=7, caseName=null, path=/bmc_hb/1.0/unit/list_label, method=post, requestData=null,...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3(TestCaseEntity(id=8, caseName=null, path=/bmc_hb/1.0/goods/goods_list, method=post, requestData=null...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3(TestCaseEntity(id=10, caseName=null, path=2, method=get, requestData=null, requestUrl=null, time=Tue...)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3(TestCaseEntity(id=11, caseName=null, path=22, method=null, requestData=null, requestUrl=null, time=T...)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

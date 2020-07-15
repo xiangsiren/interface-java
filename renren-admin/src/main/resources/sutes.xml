@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="斑马仓">
+    <test name="接口回归测试">
+        <classes>
+            <!--<class name="io.renren.modules.cases.controller.HttpClientController"/>-->
+            <!--<class name="io.renren.TestCaseService"/>-->
+            <class name="io.renren.modules.cases.service.CaseService"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <!--这是配置生成报告的监听-->
+        <listener class-name="io.renren.common.listener.MyExtentTestNgFormatter"/>
+    </listeners>
+
+
+</suite>

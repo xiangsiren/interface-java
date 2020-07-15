@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [斑马仓]">
+  <listeners>
+    <listener class-name="io.renren.common.listener.MyExtentTestNgFormatter"/>
+  </listeners>
+  <test thread-count="5" name="接口回归测试(failed)">
+    <classes>
+      <class name="io.renren.modules.cases.service.CaseService">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="test3"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- io.renren.modules.cases.service.CaseService -->
+    </classes>
+  </test> <!-- 接口回归测试(failed) -->
+</suite> <!-- Failed suite [斑马仓] -->

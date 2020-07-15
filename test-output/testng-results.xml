@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="斑马仓" duration-ms="18" started-at="2020-06-02T09:34:03Z" finished-at="2020-06-02T09:34:03Z">
+    <groups>
+    </groups>
+    <test name="接口回归测试" duration-ms="18" started-at="2020-06-02T09:34:03Z" finished-at="2020-06-02T09:34:03Z">
+      <class name="io.renren.modules.cases.service.CaseService">
+        <test-method status="PASS" signature="test3(io.renren.modules.cases.entity.TestCaseEntity)[pri:0, instance:io.renren.modules.cases.service.CaseService@6c89f448]" name="test3" duration-ms="0" started-at="2020-06-02T09:34:03Z" data-provider="methodData1" finished-at="2020-06-02T09:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseEntity(id=3, caseName=null, path=/bmc_app/v1/welcome/get_info, method=get, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:38 CST 2020, responseData=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3(io.renren.modules.cases.entity.TestCaseEntity)[pri:0, instance:io.renren.modules.cases.service.CaseService@6c89f448]" name="test3" duration-ms="0" started-at="2020-06-02T09:34:03Z" data-provider="methodData1" finished-at="2020-06-02T09:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseEntity(id=1, caseName=null, path=/bmc_hb/1.0/account/login, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:38 CST 2020, responseData=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3(io.renren.modules.cases.entity.TestCaseEntity)[pri:0, instance:io.renren.modules.cases.service.CaseService@6c89f448]" name="test3" duration-ms="0" started-at="2020-06-02T09:34:03Z" data-provider="methodData1" finished-at="2020-06-02T09:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseEntity(id=5, caseName=null, path=/bmc_hb/1.0/cate/list, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3(io.renren.modules.cases.entity.TestCaseEntity)[pri:0, instance:io.renren.modules.cases.service.CaseService@6c89f448]" name="test3" duration-ms="0" started-at="2020-06-02T09:34:03Z" data-provider="methodData1" finished-at="2020-06-02T09:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseEntity(id=7, caseName=null, path=/bmc_hb/1.0/unit/list_label, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3(io.renren.modules.cases.entity.TestCaseEntity)[pri:0, instance:io.renren.modules.cases.service.CaseService@6c89f448]" name="test3" duration-ms="0" started-at="2020-06-02T09:34:03Z" data-provider="methodData1" finished-at="2020-06-02T09:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseEntity(id=6, caseName=null, path=/bmc_hb/1.0/account/supplier_list, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3(io.renren.modules.cases.entity.TestCaseEntity)[pri:0, instance:io.renren.modules.cases.service.CaseService@6c89f448]" name="test3" duration-ms="1" started-at="2020-06-02T09:34:03Z" data-provider="methodData1" finished-at="2020-06-02T09:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseEntity(id=8, caseName=null, path=/bmc_hb/1.0/goods/goods_list, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3(io.renren.modules.cases.entity.TestCaseEntity)[pri:0, instance:io.renren.modules.cases.service.CaseService@6c89f448]" name="test3" duration-ms="0" started-at="2020-06-02T09:34:03Z" data-provider="methodData1" finished-at="2020-06-02T09:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseEntity(id=4, caseName=null, path=/bmc_hb/1.0/unit/list_all, method=post, requestData=null, requestUrl=null, time=Wed Jan 08 01:14:43 CST 2020, responseData=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3(io.renren.modules.cases.entity.TestCaseEntity)[pri:0, instance:io.renren.modules.cases.service.CaseService@6c89f448]" name="test3" duration-ms="0" started-at="2020-06-02T09:34:03Z" data-provider="methodData1" finished-at="2020-06-02T09:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseEntity(id=10, caseName=null, path=2, method=get, requestData=null, requestUrl=null, time=Tue May 26 03:09:18 CST 2020, responseData=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3(io.renren.modules.cases.entity.TestCaseEntity)[pri:0, instance:io.renren.modules.cases.service.CaseService@6c89f448]" name="test3" duration-ms="0" started-at="2020-06-02T09:34:03Z" data-provider="methodData1" finished-at="2020-06-02T09:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseEntity(id=11, caseName=null, path=22, method=null, requestData=null, requestUrl=null, time=Tue May 26 03:44:08 CST 2020, responseData=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- io.renren.modules.cases.service.CaseService -->
+    </test> <!-- 接口回归测试 -->
+  </suite> <!-- 斑马仓 -->
+</testng-results>
